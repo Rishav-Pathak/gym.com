@@ -1,0 +1,443 @@
+* {
+    margin: 0 0;
+    padding: 0 0;
+    box-sizing: border-box;
+    font-family: Exo+2, sans-serif;
+}
+
+body {
+    background: #333;
+}
+
+ul,
+ol {
+    padding: 0 0;
+}
+
+a {
+    text-decoration: none;
+}
+
+nav {
+    background: url(./bg-menu.webp) no-repeat;
+    font-weight: 600;
+    text-transform: uppercase;
+
+}
+
+.banner {
+    background: url(./images/background-header-coaching-1.webp) no-repeat;
+    padding-bottom: 650px;
+}
+
+.thin {
+    color: #fff;
+    padding-top: 300px;
+    font-size: 30px;
+    font-style: italic;
+}
+
+h1 {
+    font-size: 80px;
+    font-weight: 900;
+    color: #fff;
+    font-style: italic;
+    /* padding-bottom: 700px; */
+}
+
+.buy {
+    /* padding-bottom: 650px; */
+    border: 2px solid;
+    background: #000;
+    color: #fff;
+    font-size: 24px;
+    font-weight: 600;
+}
+
+.buy:hover {
+    background: #fff;
+
+}
+
+.buy:hover a {
+    color: #000;
+    z-index: 99;
+
+}
+
+
+
+
+.buy {
+
+    text-transform: uppercase;
+    overflow: hidden;
+    position: relative;
+    transition: 500ms;
+
+
+}
+
+.buy:hover {
+    background: #fff;
+}
+
+.premium {
+    background: #333;
+    padding-bottom: 50px;
+}
+
+.slid_er {
+    background: url(images/bg-video-coaching-demo.webp) no-repeat;
+    background-size: cover;
+    background-position: center;
+    padding: 50px;
+    text-align: center;
+
+}
+
+h3 {
+    font-size: 60px;
+    font-weight: 900;
+    color: #fff;
+    text-align: center;
+    font-style: italic;
+    padding: 20px;
+}
+
+.box {
+    color: #fff;
+    text-align: center;
+    font-size: 30px;
+    padding: 20px;
+    box-shadow: 0 0 5px #000;
+    border-radius: 20px;
+    transition: 500ms;
+    margin: 10px;
+}
+
+.box:hover {
+    transform: scale(0.8);
+}
+
+.fa {
+    font-size: 40px;
+    background: #1c55db;
+    color: #464141;
+    padding: 30px 40px;
+    border-radius: 20px;
+    color: #fff;
+}
+
+.demo {
+    padding: 50px;
+}
+
+.demo h2 {
+    padding: 80px 0;
+    color: #fff;
+    font-size: 60px;
+    font-weight: 900;
+    font-style: italic;
+}
+
+.demo span {
+    color: hotpink;
+
+}
+
+.gym {
+    border: 1px solid #f24a77;
+    text-align: center;
+    padding: 20px;
+    margin: 10px;
+    min-height: 400px;
+    color: #fff;
+    border-radius: 10px;
+}
+
+.gym:hover {
+    background: #f24a77;
+}
+
+.about {
+    color: #fff;
+    padding: 50px;
+}
+
+.about h2 {
+    font-size: 60px;
+    font-style: italic;
+    font-weight: 900;
+    font-style: italic;
+}
+
+.about p {
+    font-size: 20px;
+    font-style: italic;
+}
+
+.slide-content {
+    animation: slide 1000ms;
+}
+
+@keyframes slide {
+    0% {
+        transform: translateY(100%);
+    }
+
+    100% {
+        transform: translateX(0);
+    }
+}
+
+.know {
+    background: linear-gradient(to right, #d8541a, #d54354);
+    color: #fff;
+    padding: 30px;
+    font-size: 24px;
+    font-weight: 900;
+    font-style: italic;
+}
+
+.feature {
+    background: url(./images/bg-feature.webp) no-repeat;
+    padding-bottom: 50px;
+    position: relative;
+}
+
+.feature h2 {
+    color: #fff;
+    font-style: italic;
+    font-size: 60px;
+    font-weight: 900;
+    text-align: center;
+    padding: 80px;
+}
+
+.feature-box {
+    margin: 10px;
+}
+
+.feature-box:hover {
+    background: #fff;
+    opacity: 0.5;
+}
+
+.middle {
+    margin-top: 30px;
+}
+
+.review {
+    padding: 50px;
+    background: url(./images/bg-customservice.webp) no-repeat;
+    background-size: cover;
+    background-position: center;
+}
+
+.review h2 {
+    color: #fff;
+    font-style: italic;
+    font-size: 60px;
+    font-weight: 900;
+    text-align: center;
+
+    padding: 30px;
+}
+
+.revi_ew {
+    border-radius: 10px;
+    background: #fff;
+    padding: 50px;
+    text-align: center;
+}
+
+.revi_ew .fa {
+    color: yellow;
+    background-color: inherit;
+    font-size: 16px;
+    padding: 10px;
+}
+
+.name {
+    font-size: 24px;
+    font-weight: 900;
+    font-style: italic;
+    color: #d85615;
+}
+
+.down {
+    padding: 150px 50px;
+    text-align: center;
+}
+
+.down p {
+    font-size: 30px;
+    color: yellow;
+    font-weight: 300;
+    font-style: italic;
+}
+
+.now {
+    background: linear-gradient(to right, #d8541a, #d54354);
+    color: #fff;
+    padding: 30px 50px;
+    font-size: 24px;
+    font-weight: 900;
+    font-style: italic;
+    border-radius: 10px;
+    margin-top: 50px;
+}
+
+.footer {
+    background: url(images/bg-footer.webp) no-repeat;
+    background-size: cover;
+    background-position: center;
+    color: #fff;
+    text-align: center;
+    padding: 50px;
+}
+
+footer span {
+    color: yellow;
+}
+
+footer h3 {
+    padding: 50px;
+    font-size: 40px;
+}
+
+footer p {
+    text-align: center;
+    font-size: 24px;
+    font-style: italic;
+    padding: 50px;
+}
+
+footer .fa {
+    margin: 20px;
+    border-radius: 50%;
+    transition: 500ms;
+}
+
+footer .fa:hover {
+    transform: scale(1.3);
+}
+
+footer .fa-facebook {
+    background: #1c55db;
+}
+
+
+footer .fa-twitter {
+    background: #2f88f5;
+    padding: 30px;
+}
+
+footer .fa-instagram {
+    background: #e64863;
+    padding: 30px;
+}
+
+footer .fa-linkedin {
+    background: #052161;
+    padding: 30px;
+}
+
+@media (max-width: 1400px) {}
+
+@media (max-width: 1200px) {}
+
+@media (max-width: 992px) {}
+
+@media (max-width: 768px) {
+    .middle {
+        margin-top: 0;
+    }
+
+    .thin {
+        padding-top: 50px;
+    }
+
+    .banner {
+        padding-bottom: 90px;
+    }
+
+    .feature-box {
+        text-align: center;
+    }
+
+    nav {
+        background: darkred;
+    }
+
+    .slide-content {
+        margin: 20px;
+    }
+}
+
+@media (max-width: 576px) {
+    h1 {
+        font-size: 40px;
+        padding: 20px;
+    }
+
+    .demo h2 {
+        padding: 0;
+        font-size: 40px;
+    }
+
+    h3 {
+        font-size: 35px;
+    }
+
+    .about h2 {
+        font-size: 40px;
+    }
+
+    .about p {
+        font-size: 16px;
+    }
+
+    .thin {
+        font-size: 25px;
+        padding-top: 30px;
+    }
+
+    .buy {
+        font-size: 18px;
+    }
+
+    .know {
+        padding: 12px;
+        font-size: 16px;
+    }
+
+    .feature h2 {
+        font-size: 35px;
+        padding: 30px;
+    }
+
+    .review h2 {
+        font-size: 35px;
+    }
+
+    .now {
+        padding: 12px 16px;
+        font-size: 16px;
+    }
+
+    .footer h3 {
+        padding: 0;
+        font-size: 24px;
+    }
+
+    .footer p {
+        padding: 20px;
+        font-size: 16px;
+    }
+
+    .footer .fa {
+        margin: 15px;
+    }
+}
